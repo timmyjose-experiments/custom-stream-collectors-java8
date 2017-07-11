@@ -11,7 +11,7 @@ for others.
 
 Please check the `com.z0ltan.custom.collectors.collectors` package for custom implementations of the `Collector` interface
 which is required in order to be able to collect intermediate results into a final result. For more details on exactly how 
-the custom collectors work, please consult my blog: [Talking with a Lisp](https://z0ltan.wordpress.com).
+the custom collectors work, please consult my blog: [Talking with a Lisp](https://z0ltan.wordpress.com/2017/07/11/creating-custom-java-8-stream-collectors/).
 
 Perusing the tests in the `src/test/java` folder is also recommended to get a better feel of how to implement and use your
 own custom collector(s).
