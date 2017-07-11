@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/timmyjose/custom-stream-collectors-java8.svg?branch=master)](https://travis-ci.org/timmyjose/custom-stream-collectors-java8)
+
 This is a small collection of examples of collecting streams of custom types or built-in types into 
 a custom object type for Java streams (Java 8 and above). 
 
