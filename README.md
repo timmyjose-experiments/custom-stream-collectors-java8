@@ -9,7 +9,7 @@ for others.
 
 Please check the `com.z0ltan.custom.collectors.collectors` package for custom implementations of the `Collector` interface
 which is required in order to be able to collect intermediate results into a final result. For more details on exactly how 
-the custom collectors work, please consult my blog: (Talking with a Lisp)[https://z0ltan.wordpress.com]
+the custom collectors work, please consult my blog: [Talking with a Lisp](https://z0ltan.wordpress.com).
 
 Perusing the tests in the `src/test/java` folder is also recommended to get a better feel of how to implement and use your
 own custom collector(s).
@@ -26,7 +26,7 @@ To run the sample tests:
 
 To compile and run the sample examples:
 
-``
+```
 	$ mvn clean && mvn compile
 	$ mvn exec:java -Dexec.mainClass=com.z0ltan.custom.collectors.Main
 ```
@@ -40,6 +40,7 @@ Alternatively,
 
 
 ## Build
+
 ```
 	$ mvn clean && mvn compiler
 ```
@@ -56,6 +57,7 @@ or
 Sample run:
 
 ```
+
 Macushla:custom-collectors z0ltan$ java -jar target/custom-collectors-1.0-SNAPSHOT.jar
 [wrapperDemo] original wrapper = Wrapper { values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }
 
